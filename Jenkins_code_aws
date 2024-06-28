@@ -22,7 +22,7 @@ script
 {
 dir("terrafrom")
 {
-git = "https://github.com/Renukamehta13/Terraform-Jenkin"
+git = "https://github.com/Renukamehta13/Terraform-Jenkin.git"
 }
 }
 }
