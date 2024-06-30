@@ -32,7 +32,7 @@ stage('plan')
 {
 steps
 {
-sh 'pwd;cd terraform/ ; terraform init'
+sh 'terraform init'
 sh "terraform plan -out tfplan"
 sh 'terraform show -no-color tfplan > tfplan.txt'
 }
