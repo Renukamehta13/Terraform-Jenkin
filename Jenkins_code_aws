@@ -32,6 +32,7 @@ stage('plan')
 {
 steps
 {
+sh pwd; ls -la
 sh 'terraform init'
 sh "terraform plan -out tfplan"
 sh 'terraform show -no-color tfplan > tfplan.txt'
